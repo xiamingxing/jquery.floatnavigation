@@ -153,7 +153,7 @@ $.fn.floatnavigation.option = {
 ## Examples
 Look example click [here][herelink]
 
-[herelink]: https://raw.githubusercontent.com/xiamingxing/jquery.floatnavigation/master/demo/floatnavigation.html
+[herelink]: http://xiamingxing.github.io/jquery.floatnavigation/demo/floatnavigation.html
 
 ## Release History
     1.0.0
