@@ -22,7 +22,7 @@ jQuery(function($) {
         speed: 500,
         defaultIndex: 0,
         onItemClick: function (event, $item, index){
-          //бнбн
+          //event listener
         }
    });
 });
