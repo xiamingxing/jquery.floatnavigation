@@ -15,16 +15,39 @@ In your web page:
 <script src="dist/jquery.floatnavigation.min.js"></script>
 <script>
 jQuery(function($) {
-   $('.list').floatnavigation();
+   $('.list').floatnavigation({
+        cursorClassName: 'active',
+        currentClassName: 'current',
+        itemClassName: 'item',
+        speed: 500,
+        defaultIndex: 0,
+        onItemClick: function (event, $item, index){
+          ，，，，，，
+        }
+   });
 });
 </script>
 ```
 
 ## Documentation
-_(Coming soon)_
+```javascript
+
+$.fn.floatnavigation.option = {
+    punctuation: '1.0.0',
+    cursorClassName: 'active',
+    currentClassName: 'current',
+    itemClassName: 'item',
+    speed: 500,
+    defaultIndex: 0,
+    onItemClick: null
+};
+
+```
 
 ## Examples
-_(Coming soon)_
+Look example click [here][herelink]
+
+[herelink]: https://raw.githubusercontent.com/xiamingxing/jquery.floatnavigation/master/demo/floatnavigation.html
 
 ## Release History
-_(Nothing yet)_
+    1.0.0
