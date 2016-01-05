@@ -1,11 +1,6 @@
-/*
- * floatnavigation
- * https://github.com/xiamingxing/jquery.floatnavigation
- *
- * Copyright (c) 2016 xiamingxing
- * Licensed under the MIT license.
- */
-
+/*! Floatnavigation - v0.1.0 - 2016-01-05
+* https://github.com/xiamingxing/jquery.floatnavigation
+* Copyright (c) 2016 xiamingxing; Licensed MIT */
 (function ($) {
 
     // Collection method.
