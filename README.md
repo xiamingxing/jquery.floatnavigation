@@ -25,7 +25,6 @@ In your web page:
 </div>
 
 ```
-
 #### javascript
 
 ```html
@@ -46,7 +45,7 @@ jQuery(function($) {
 });
 </script>
 ```
-
+#### css
 ```css
     /*common*/
     html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, blockquote, pre, form, input, textarea, fieldset, table, th, td {
